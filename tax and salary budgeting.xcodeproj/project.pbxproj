@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28DA69A427DE75AF000B49BD /* tax_and_salary_budgetingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DA69A327DE75AF000B49BD /* tax_and_salary_budgetingApp.swift */; };
+		28DA69A627DE75AF000B49BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DA69A527DE75AF000B49BD /* ContentView.swift */; };
+		28DA69A827DE75B0000B49BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28DA69A727DE75B0000B49BD /* Assets.xcassets */; };
+		28DA69AB27DE75B0000B49BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28DA69AA27DE75B0000B49BD /* Preview Assets.xcassets */; };
+		28DA69AD27DE75B0000B49BD /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DA69AC27DE75B0000B49BD /* Persistence.swift */; };
+		28DA69B027DE75B0000B49BD /* tax_and_salary_budgeting.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28DA69AE27DE75B0000B49BD /* tax_and_salary_budgeting.xcdatamodeld */; };
+		28DA69BA27DE75B1000B49BD /* tax_and_salary_budgetingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DA69B927DE75B1000B49BD /* tax_and_salary_budgetingTests.swift */; };
+		28DA69C427DE75B1000B49BD /* tax_and_salary_budgetingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DA69C327DE75B1000B49BD /* tax_and_salary_budgetingUITests.swift */; };
+		28DA69C627DE75B1000B49BD /* tax_and_salary_budgetingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DA69C527DE75B1000B49BD /* tax_and_salary_budgetingUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28DA69B627DE75B1000B49BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28DA699827DE75AF000B49BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28DA699F27DE75AF000B49BD;
+			remoteInfo = "tax and salary budgeting";
+		};
+		28DA69C027DE75B1000B49BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28DA699827DE75AF000B49BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28DA699F27DE75AF000B49BD;
+			remoteInfo = "tax and salary budgeting";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28DA69A027DE75AF000B49BD /* tax and salary budgeting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tax and salary budgeting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28DA69A327DE75AF000B49BD /* tax_and_salary_budgetingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tax_and_salary_budgetingApp.swift; sourceTree = "<group>"; };
+		28DA69A527DE75AF000B49BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		28DA69A727DE75B0000B49BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28DA69AA27DE75B0000B49BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		28DA69AC27DE75B0000B49BD /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		28DA69AF27DE75B0000B49BD /* tax_and_salary_budgeting.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tax_and_salary_budgeting.xcdatamodel; sourceTree = "<group>"; };
+		28DA69B527DE75B1000B49BD /* tax and salary budgetingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tax and salary budgetingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28DA69B927DE75B1000B49BD /* tax_and_salary_budgetingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tax_and_salary_budgetingTests.swift; sourceTree = "<group>"; };
+		28DA69BF27DE75B1000B49BD /* tax and salary budgetingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tax and salary budgetingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28DA69C327DE75B1000B49BD /* tax_and_salary_budgetingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tax_and_salary_budgetingUITests.swift; sourceTree = "<group>"; };
+		28DA69C527DE75B1000B49BD /* tax_and_salary_budgetingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tax_and_salary_budgetingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28DA699D27DE75AF000B49BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28DA69B227DE75B1000B49BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28DA69BC27DE75B1000B49BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28DA699727DE75AF000B49BD = {
+			isa = PBXGroup;
+			children = (
+				28DA69A227DE75AF000B49BD /* tax and salary budgeting */,
+				28DA69B827DE75B1000B49BD /* tax and salary budgetingTests */,
+				28DA69C227DE75B1000B49BD /* tax and salary budgetingUITests */,
+				28DA69A127DE75AF000B49BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28DA69A127DE75AF000B49BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28DA69A027DE75AF000B49BD /* tax and salary budgeting.app */,
+				28DA69B527DE75B1000B49BD /* tax and salary budgetingTests.xctest */,
+				28DA69BF27DE75B1000B49BD /* tax and salary budgetingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28DA69A227DE75AF000B49BD /* tax and salary budgeting */ = {
+			isa = PBXGroup;
+			children = (
+				28DA69A327DE75AF000B49BD /* tax_and_salary_budgetingApp.swift */,
+				28DA69A527DE75AF000B49BD /* ContentView.swift */,
+				28DA69A727DE75B0000B49BD /* Assets.xcassets */,
+				28DA69AC27DE75B0000B49BD /* Persistence.swift */,
+				28DA69AE27DE75B0000B49BD /* tax_and_salary_budgeting.xcdatamodeld */,
+				28DA69A927DE75B0000B49BD /* Preview Content */,
+			);
+			path = "tax and salary budgeting";
+			sourceTree = "<group>";
+		};
+		28DA69A927DE75B0000B49BD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				28DA69AA27DE75B0000B49BD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		28DA69B827DE75B1000B49BD /* tax and salary budgetingTests */ = {
+			isa = PBXGroup;
+			children = (
+				28DA69B927DE75B1000B49BD /* tax_and_salary_budgetingTests.swift */,
+			);
+			path = "tax and salary budgetingTests";
+			sourceTree = "<group>";
+		};
+		28DA69C227DE75B1000B49BD /* tax and salary budgetingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28DA69C327DE75B1000B49BD /* tax_and_salary_budgetingUITests.swift */,
+				28DA69C527DE75B1000B49BD /* tax_and_salary_budgetingUITestsLaunchTests.swift */,
+			);
+			path = "tax and salary budgetingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28DA699F27DE75AF000B49BD /* tax and salary budgeting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28DA69C927DE75B1000B49BD /* Build configuration list for PBXNativeTarget "tax and salary budgeting" */;
+			buildPhases = (
+				28DA699C27DE75AF000B49BD /* Sources */,
+				28DA699D27DE75AF000B49BD /* Frameworks */,
+				28DA699E27DE75AF000B49BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tax and salary budgeting";
+			productName = "tax and salary budgeting";
+			productReference = 28DA69A027DE75AF000B49BD /* tax and salary budgeting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28DA69B427DE75B1000B49BD /* tax and salary budgetingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28DA69CC27DE75B1000B49BD /* Build configuration list for PBXNativeTarget "tax and salary budgetingTests" */;
+			buildPhases = (
+				28DA69B127DE75B1000B49BD /* Sources */,
+				28DA69B227DE75B1000B49BD /* Frameworks */,
+				28DA69B327DE75B1000B49BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28DA69B727DE75B1000B49BD /* PBXTargetDependency */,
+			);
+			name = "tax and salary budgetingTests";
+			productName = "tax and salary budgetingTests";
+			productReference = 28DA69B527DE75B1000B49BD /* tax and salary budgetingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28DA69BE27DE75B1000B49BD /* tax and salary budgetingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28DA69CF27DE75B1000B49BD /* Build configuration list for PBXNativeTarget "tax and salary budgetingUITests" */;
+			buildPhases = (
+				28DA69BB27DE75B1000B49BD /* Sources */,
+				28DA69BC27DE75B1000B49BD /* Frameworks */,
+				28DA69BD27DE75B1000B49BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28DA69C127DE75B1000B49BD /* PBXTargetDependency */,
+			);
+			name = "tax and salary budgetingUITests";
+			productName = "tax and salary budgetingUITests";
+			productReference = 28DA69BF27DE75B1000B49BD /* tax and salary budgetingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28DA699827DE75AF000B49BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					28DA699F27DE75AF000B49BD = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					28DA69B427DE75B1000B49BD = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 28DA699F27DE75AF000B49BD;
+					};
+					28DA69BE27DE75B1000B49BD = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 28DA699F27DE75AF000B49BD;
+					};
+				};
+			};
+			buildConfigurationList = 28DA699B27DE75AF000B49BD /* Build configuration list for PBXProject "tax and salary budgeting" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28DA699727DE75AF000B49BD;
+			productRefGroup = 28DA69A127DE75AF000B49BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28DA699F27DE75AF000B49BD /* tax and salary budgeting */,
+				28DA69B427DE75B1000B49BD /* tax and salary budgetingTests */,
+				28DA69BE27DE75B1000B49BD /* tax and salary budgetingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28DA699E27DE75AF000B49BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28DA69AB27DE75B0000B49BD /* Preview Assets.xcassets in Resources */,
+				28DA69A827DE75B0000B49BD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28DA69B327DE75B1000B49BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28DA69BD27DE75B1000B49BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28DA699C27DE75AF000B49BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28DA69AD27DE75B0000B49BD /* Persistence.swift in Sources */,
+				28DA69A627DE75AF000B49BD /* ContentView.swift in Sources */,
+				28DA69A427DE75AF000B49BD /* tax_and_salary_budgetingApp.swift in Sources */,
+				28DA69B027DE75B0000B49BD /* tax_and_salary_budgeting.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28DA69B127DE75B1000B49BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28DA69BA27DE75B1000B49BD /* tax_and_salary_budgetingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28DA69BB27DE75B1000B49BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28DA69C627DE75B1000B49BD /* tax_and_salary_budgetingUITestsLaunchTests.swift in Sources */,
+				28DA69C427DE75B1000B49BD /* tax_and_salary_budgetingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28DA69B727DE75B1000B49BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28DA699F27DE75AF000B49BD /* tax and salary budgeting */;
+			targetProxy = 28DA69B627DE75B1000B49BD /* PBXContainerItemProxy */;
+		};
+		28DA69C127DE75B1000B49BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28DA699F27DE75AF000B49BD /* tax and salary budgeting */;
+			targetProxy = 28DA69C027DE75B1000B49BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28DA69C727DE75B1000B49BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28DA69C827DE75B1000B49BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28DA69CA27DE75B1000B49BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tax and salary budgeting/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "knobs.tax-and-salary-budgeting";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28DA69CB27DE75B1000B49BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tax and salary budgeting/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "knobs.tax-and-salary-budgeting";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		28DA69CD27DE75B1000B49BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "knobs.tax-and-salary-budgetingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tax and salary budgeting.app/tax and salary budgeting";
+			};
+			name = Debug;
+		};
+		28DA69CE27DE75B1000B49BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "knobs.tax-and-salary-budgetingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tax and salary budgeting.app/tax and salary budgeting";
+			};
+			name = Release;
+		};
+		28DA69D027DE75B1000B49BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "knobs.tax-and-salary-budgetingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tax and salary budgeting";
+			};
+			name = Debug;
+		};
+		28DA69D127DE75B1000B49BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "knobs.tax-and-salary-budgetingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tax and salary budgeting";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28DA699B27DE75AF000B49BD /* Build configuration list for PBXProject "tax and salary budgeting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28DA69C727DE75B1000B49BD /* Debug */,
+				28DA69C827DE75B1000B49BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28DA69C927DE75B1000B49BD /* Build configuration list for PBXNativeTarget "tax and salary budgeting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28DA69CA27DE75B1000B49BD /* Debug */,
+				28DA69CB27DE75B1000B49BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28DA69CC27DE75B1000B49BD /* Build configuration list for PBXNativeTarget "tax and salary budgetingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28DA69CD27DE75B1000B49BD /* Debug */,
+				28DA69CE27DE75B1000B49BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28DA69CF27DE75B1000B49BD /* Build configuration list for PBXNativeTarget "tax and salary budgetingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28DA69D027DE75B1000B49BD /* Debug */,
+				28DA69D127DE75B1000B49BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		28DA69AE27DE75B0000B49BD /* tax_and_salary_budgeting.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				28DA69AF27DE75B0000B49BD /* tax_and_salary_budgeting.xcdatamodel */,
+			);
+			currentVersion = 28DA69AF27DE75B0000B49BD /* tax_and_salary_budgeting.xcdatamodel */;
+			path = tax_and_salary_budgeting.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 28DA699827DE75AF000B49BD /* Project object */;
+}
