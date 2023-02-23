@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		284C8B9B27F4EB18005FE18C /* ContentView_Second.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284C8B9A27F4EB18005FE18C /* ContentView_Second.swift */; };
 		28DA69A427DE75AF000B49BD /* tax_and_salary_budgetingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DA69A327DE75AF000B49BD /* tax_and_salary_budgetingApp.swift */; };
 		28DA69A627DE75AF000B49BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DA69A527DE75AF000B49BD /* ContentView.swift */; };
 		28DA69A827DE75B0000B49BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28DA69A727DE75B0000B49BD /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		284C8B9A27F4EB18005FE18C /* ContentView_Second.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView_Second.swift; sourceTree = "<group>"; };
 		28DA69A027DE75AF000B49BD /* tax and salary budgeting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tax and salary budgeting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28DA69A327DE75AF000B49BD /* tax_and_salary_budgetingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tax_and_salary_budgetingApp.swift; sourceTree = "<group>"; };
 		28DA69A527DE75AF000B49BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				28DA69AC27DE75B0000B49BD /* Persistence.swift */,
 				28DA69AE27DE75B0000B49BD /* tax_and_salary_budgeting.xcdatamodeld */,
 				28DA69A927DE75B0000B49BD /* Preview Content */,
+				284C8B9A27F4EB18005FE18C /* ContentView_Second.swift */,
 			);
 			path = "tax and salary budgeting";
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				284C8B9B27F4EB18005FE18C /* ContentView_Second.swift in Sources */,
 				28DA69AD27DE75B0000B49BD /* Persistence.swift in Sources */,
 				28DA69A627DE75AF000B49BD /* ContentView.swift in Sources */,
 				28DA69A427DE75AF000B49BD /* tax_and_salary_budgetingApp.swift in Sources */,
